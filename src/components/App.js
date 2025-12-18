@@ -11,10 +11,10 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="parent">
       <ChildComponentOne handleState={handleState} />
       <ChildComponentTwo handleState={handleState} />
-      Selected Option: {selectedOption}
+      <p>Selected Option: {selectedOption}</p>
     </div>
   );
 };
