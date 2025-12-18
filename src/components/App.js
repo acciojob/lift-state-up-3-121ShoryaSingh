@@ -12,6 +12,7 @@ const App = () => {
 
   return (
     <div className="parent">
+      <h1>Parent Component</h1>
       <ChildComponentOne handleState={handleState} />
       <ChildComponentTwo handleState={handleState} />
       <p>Selected Option: {selectedOption}</p>

@@ -6,7 +6,7 @@ const ChildComponentTwo = ({ handleState }) => {
       Child Component 2
       <button
         onClick={() => {
-          handleState('option 2');
+          handleState('Option 2');
         }}
       >
         Option 2
